@@ -1,0 +1,178 @@
+body, html {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+
+#wrapper {
+	margin: 0;
+}
+header {
+	background-color: #F1F1F1;
+	border-bottom: solid 1px #CECECE;
+}
+
+input#magnifier {
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Magnifying_glass_icon.svg/490px-Magnifying_glass_icon.svg.png);
+	background-repeat: no-repeat;
+	margin-left: 0px;
+	position: absolute;
+	top: 13px;
+	border: solid 5px #4285F4;
+	border-radius: 3px;
+}
+
+input#textbox {
+	width: 500px;
+	height: 30px;
+	margin: 0;
+	font-size: 17px;
+	padding-left: 5px;
+
+}
+
+div#input_container {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 0;
+	position: relative;
+	padding: 0;
+	bottom: 15px;
+}
+
+#input_img {
+	position: absolute;
+	bottom: 7px;
+	left: 470px;
+	width: 20px;
+	height: 20px;
+}
+
+#google {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+#navbar li {
+	display: inline-block;
+	margin-left: 20px;
+	position: relative;
+	top: 15px;
+	text-align: center;
+	right: 20px;
+}
+
+#navbar {
+	float: right;
+}
+
+#avatar {
+	border-radius: 17px;
+}
+
+#bell {
+	border-radius: 10px;
+}
+
+#pasek {
+	height: 60px;
+	border-bottom: solid 1px #CECECE;
+}
+
+#pasek li {
+	margin-left: 30px;
+	font-size: 14px;
+	font-family: arial;
+	display: inline-block;
+	color: #979797;
+}
+
+#pasek2 {
+	margin-left: 110px;
+	line-height: 60px;
+}
+
+#pasek a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#pasek a:hover {
+	color: black;
+}
+
+#pasek a#first_a {
+	color: #4285F4;
+	font-weight: bold;
+	border-bottom: 2px solid #4285F4;
+	padding-bottom: 20px;
+}
+
+p {
+	font-family: arial;
+	font-size: 13px;
+	color: #9F9F9F;
+	margin-left: 140px;
+}
+
+#main a {
+	text-decoration: none;
+	font-family: arial;
+	font-size: 18px;
+	margin-left: 140px;
+}
+
+.links {
+	margin-top: 20px;
+}
+
+.green {
+	color: #006621;
+	margin: 0;
+	font-size: 15px;
+	margin-left: 140px;
+	display: inline-block;
+}
+
+#main .translation {
+	font-size: 15px;
+	margin-left: 5px;
+	color: #1A0DB0;
+}
+
+#main .date {
+	margin-top: 3px;
+	color: #808393;
+	margin-left: 140px;
+}
+
+#main .content {
+	display: inline;
+}
+
+
+#bottom p {
+	font-size: 20px;
+	color: #8083A3;
+}
+
+#bottom a {
+	color: #1A32CA;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 13px;
+}
+
+#bottom table {
+	border-top: solid 1px #EEEEEE;
+	border-bottom: solid 1px #EEEEEE;
+	margin-left: 140px;
+}
+tr {
+	margin-left: 15px;
+}
+
+#bottom td {
+	margin-left: 100px;
+	
+}
